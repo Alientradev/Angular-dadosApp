@@ -1,0 +1,11 @@
+<div class="jumbotron text-center">
+  <button class="btn btn-dark btn-lg btnHover" (click)="diceThrow()">Tirar los Dados</button>
+  <br>
+  <img class="diceImg" [src]="leftDice">
+  <img class="diceImg" [src]="rightDice" alt="Dice">
+  <h1 *ngIf="number1 === number2">
+    <span class="win">
+      Ganaste!
+    </span>
+  </h1>
+</div>

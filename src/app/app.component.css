@@ -1,0 +1,28 @@
+.jumbotron {
+    padding: 4rem 2rem;
+    margin: 2rem;
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 5px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; */
+    }
+
+.diceImg {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.win {
+    font-size: 80px;
+    color: gold;
+    font-style: italic;
+}
+
+.btnHover:hover {
+    color: black;
+    background-color: white;
+}
